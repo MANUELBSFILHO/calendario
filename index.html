@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="calendar.css">
+    <title>Calendário Universal</title>
+</head>
+<body>
+    <div class="calendar">
+        <div class="header">
+            <button id="prevYear">Ano Anterior</button>
+            <button id="prevMonth">Mês Anterior</button>
+            <h1 id="currentDate">Novembro 2023</h1>
+            <button id="nextMonth">Próximo Mês</button>
+            <button id="nextYear">Próximo Ano</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Domingo</th>
+                    <th>Segunda</th>
+                    <th>Terça</th>
+                    <th>Quarta</th>
+                    <th>Quinta</th>
+                    <th>Sexta</th>
+                    <th>Sábado</th>
+                </tr>
+            </thead>
+            <tbody id="calendarBody">
+                <!-- O conteúdo do calendário será gerado dinamicamente aqui -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="calendar.js"></script>
+</body>
+</html>

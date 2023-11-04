@@ -1,0 +1,58 @@
+/* Estilos CSS para o calendário */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.calendar {
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #6cc203;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+td {
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: #f0f0f0;
+}
